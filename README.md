@@ -176,7 +176,7 @@ python mva_load_h5ad.py -i out/mva_run.filtered_matrix.sparse.tsv -o out/mva_run
 | Flag | Default | Meaning |
 |---|---|---|
 | `--pvalue-thre` | 0.01 | combined P threshold after BH correction |
-| `--ind-min` / `--ind-max` | 100000 / 1000000000 | ambient window: barcodes ranked after the top 100,000 by UMI (end index effectively unlimited) |
+| `--ind-min` / `--ind-max` | 100000 / 570000000 | ambient window: barcodes ranked after the top 100,000 by UMI (end index effectively unlimited) |
 | `--umi-lower` | 300 (100 in omics) | barcodes at or below are skipped as empty |
 | `--umi-upper` | 10000 | barcodes at or above are called without a test |
 | `--soft-umi-thre` | on | UMI-dependent P threshold; off via `--no-soft-umi-thre` |
